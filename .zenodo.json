@@ -1,0 +1,15 @@
+{
+  "title": "Métodos Quantitativos de Pesquisa em Administração: materiais didáticos (apostilas, tutoriais e bases de dados para Jamovi)",
+  "upload_type": "lesson",
+  "description": "<p>Materiais didáticos abertos da disciplina Métodos Quantitativos de Pesquisa em Administração (MQPA) do Programa de Pós-Graduação em Administração da Universidade Federal de Campina Grande (PPGA/UFCG), desenvolvidos no Núcleo de Pesquisa em Finanças (NUPFIN/UFCG).</p><p>Inclui apostilas e tutoriais para o Jamovi sobre correlação, teste t para amostras independentes, regressão linear múltipla, análise fatorial, confiabilidade (alfa de Cronbach) e ANOVA, com as bases de dados usadas nos exemplos e slides de aula.</p><p>Site: https://profkliver.github.io/mqpa/</p>",
+  "creators": [
+    {
+      "name": "Confessor, Kliver Lamarthine Alves",
+      "affiliation": "Universidade Federal de Campina Grande (UFCG)"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "por",
+  "keywords": ["métodos quantitativos", "administração", "Jamovi", "estatística", "material didático", "análise fatorial", "regressão", "ANOVA"],
+  "access_right": "open"
+}
