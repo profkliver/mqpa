@@ -10,7 +10,7 @@ Materiais abertos da disciplina do Mestrado em Administração (PPGA/UFCG): apos
 | 02. Teste t | [PDF](materiais/02-teste-t/apostila-teste-t-jamovi.pdf) | [CSV](materiais/02-teste-t/base_teste_t_bet_ed_fin.csv) (anonimizada, n = 222) | |
 | 03. Regressão múltipla | [PDF](materiais/03-regressao-multipla/tutorial-regressao-multipla-jamovi.pdf) | [CSV](materiais/03-regressao-multipla/base_regressao_af_bets.csv) (simulada, n = 200) | |
 
-Slides: Desenho da pesquisa quantitativa e coleta de dados ([PDF](slides/desenho-pesquisa-quantitativa.pdf) · [PPTX](slides/desenho-pesquisa-quantitativa.pptx))
+Slides: [Desenho da pesquisa quantitativa e coleta de dados](slides/desenho-pesquisa-quantitativa.pdf) (PDF)
 
 ## Licença e citação
 
