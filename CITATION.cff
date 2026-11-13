@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Se usar estes materiais, cite-os assim."
+type: dataset
+title: "Métodos Quantitativos de Pesquisa em Administração: materiais didáticos (apostilas, tutoriais e bases de dados para Jamovi)"
+authors:
+  - family-names: Confessor
+    given-names: Kliver Lamarthine Alves
+    affiliation: "Universidade Federal de Campina Grande (PPGA/UFCG)"
+version: "1.0"
+date-released: 2026-11-12
+license: CC-BY-4.0
+url: "https://profkliver.github.io/mqpa/"
+repository-code: "https://github.com/profkliver/mqpa"
+keywords: [métodos quantitativos, administração, jamovi, estatística, material didático]

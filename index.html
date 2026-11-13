@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MQPA · PPGA/UFCG</title>
+<meta name="description" content="Métodos Quantitativos de Pesquisa em Administração (PPGA/UFCG): apostilas, tutoriais, slides e bases de dados para Jamovi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#111111; --paper:#FFFFFF; --alt:#F2F2F2; --muted:#555555; --subtle:#A8A8A8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#F2F2F2; --paper:#111111; --alt:#1E1E1E; --muted:#B0B0B0; --subtle:#5A5A5A; }
+  }
+  * { box-sizing:border-box; margin:0; padding:0; border-radius:0; }
+  body { background:var(--paper); color:var(--ink); font:400 17px/1.5 "IBM Plex Sans", Arial, sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 16px; }
+  @media (min-width:700px) { .wrap { padding:0 48px; } }
+  .mono { font-family:"IBM Plex Mono", Consolas, monospace; }
+  .label { font:400 13px/1.4 "IBM Plex Mono", Consolas, monospace; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; }
+  a { color:var(--ink); text-underline-offset:3px; }
+  a:focus-visible { outline:2px solid var(--ink); outline-offset:3px; }
+  svg.iv { display:block; color:var(--ink); }
+
+  header { padding:72px 0 48px; }
+  h1 { font-size:clamp(34px, 7vw, 52px); line-height:1.05; font-weight:700; margin:16px 0 16px; }
+  header svg.iv { width:220px; height:44px; margin-bottom:28px; }
+  .lead { max-width:640px; }
+  .meta { margin-top:28px; display:flex; flex-wrap:wrap; gap:8px 28px; }
+
+  section { padding:48px 0; border-top:1px solid var(--ink); }
+  h2 { font-size:24px; line-height:1.25; font-weight:700; margin:8px 0 28px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background:var(--alt); padding:28px; display:flex; flex-direction:column; gap:16px; }
+  .card h3 { font-size:20px; line-height:1.25; font-weight:700; }
+  .card p { color:var(--muted); font-size:15px; }
+  ul.files { list-style:none; display:flex; flex-direction:column; gap:8px; margin-top:auto; }
+  ul.files li { display:flex; align-items:center; gap:8px; }
+  ul.files svg.iv { width:28px; height:12px; flex:none; }
+  .fmt { font:400 12px "IBM Plex Mono", Consolas, monospace; color:var(--muted); }
+  .soon { color:var(--muted); }
+  ol.steps { padding-left:20px; display:flex; flex-direction:column; gap:8px; max-width:680px; }
+  pre { background:var(--alt); padding:16px; overflow-x:auto; font:400 13px/1.5 "IBM Plex Mono", Consolas, monospace; white-space:pre-wrap; }
+
+  footer { border-top:1px solid var(--ink); padding:16px 0 48px; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+  footer .label { text-transform:none; font-size:12px; }
+  footer svg.iv { width:44px; height:12px; flex:none; }
+</style>
+</head>
+<body>
+<!-- intervalo com ponto: assinatura visual; espessuras conforme a largura em tela -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="iv-lg" viewBox="0 0 120 24"><line x1="3" y1="12" x2="117" y2="12" stroke="currentColor" stroke-width="2.5"/><line x1="3" y1="3" x2="3" y2="21" stroke="currentColor" stroke-width="2.5"/><line x1="117" y1="3" x2="117" y2="21" stroke="currentColor" stroke-width="2.5"/><circle cx="60" cy="12" r="6" fill="currentColor"/></symbol>
+  <symbol id="iv-md" viewBox="0 0 120 24"><line x1="3" y1="12" x2="117" y2="12" stroke="currentColor" stroke-width="5"/><line x1="3" y1="3" x2="3" y2="21" stroke="currentColor" stroke-width="5"/><line x1="117" y1="3" x2="117" y2="21" stroke="currentColor" stroke-width="5"/><circle cx="60" cy="12" r="8" fill="currentColor"/></symbol>
+  <symbol id="iv-sm" viewBox="0 0 120 24"><line x1="4" y1="12" x2="116" y2="12" stroke="currentColor" stroke-width="8"/><line x1="4" y1="1" x2="4" y2="23" stroke="currentColor" stroke-width="8"/><line x1="116" y1="1" x2="116" y2="23" stroke="currentColor" stroke-width="8"/><circle cx="60" cy="12" r="11" fill="currentColor"/></symbol>
+</svg>
+
+<div class="wrap">
+  <header>
+    <p class="label">Mestrado em Administração · PPGA/UFCG · 2026</p>
+    <h1>Métodos Quantitativos de Pesquisa em Administração</h1>
+    <svg class="iv" aria-hidden="true"><use href="#iv-lg"/></svg>
+    <p class="lead">Materiais abertos da disciplina: apostilas, tutoriais, slides e bases de dados. As análises usam o <a href="https://www.jamovi.org/download.html">Jamovi</a>, programa gratuito de estatística. Cada tema traz a apostila, a base usada nos exemplos e, quando houver, o arquivo do Jamovi com a análise pronta.</p>
+    <div class="meta">
+      <span class="label">Prof. Dr. Kliver Lamarthine Alves Confessor</span>
+      <span class="label">NUPFIN/UFCG</span>
+    </div>
+  </header>
+
+  <section id="materiais" aria-labelledby="t-materiais">
+    <p class="label">Materiais</p>
+    <h2 id="t-materiais">Apostilas e tutoriais por tema</h2>
+    <div class="grid">
+      <article class="card">
+        <p class="label">Tema 01</p>
+        <h3>Análise de correlação</h3>
+        <p>Pearson, Spearman, Kendall e correlação parcial. Pressupostos, matriz de correlação e redação dos resultados.</p>
+        <ul class="files">
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/01-correlacao/apostila-correlacao-jamovi.pdf">Apostila</a> <span class="fmt">PDF</span></li>
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/01-correlacao/base_ef_bets.csv" download>Base de dados</a> <span class="fmt">CSV · n = 200 · simulada</span></li>
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/01-correlacao/correlacao.omv" download>Análise no Jamovi</a> <span class="fmt">OMV</span></li>
+        </ul>
+      </article>
+      <article class="card">
+        <p class="label">Tema 02</p>
+        <h3>Teste t para amostras independentes</h3>
+        <p>Preparação da base, descrição da amostra, comparação entre grupos e interpretação. Recorte de pesquisa do NUPFIN.</p>
+        <ul class="files">
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/02-teste-t/apostila-teste-t-jamovi.pdf">Apostila</a> <span class="fmt">PDF</span></li>
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/02-teste-t/base_teste_t_bet_ed_fin.csv" download>Base de dados</a> <span class="fmt">CSV · n = 222 · respostas reais anonimizadas</span></li>
+        </ul>
+      </article>
+      <article class="card">
+        <p class="label">Tema 03</p>
+        <h3>Regressão linear múltipla</h3>
+        <p>Modelo hierárquico em blocos, coeficientes, pressupostos, erros-padrão robustos e redação em formato de artigo.</p>
+        <ul class="files">
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="materiais/03-regressao-multipla/tutorial-regressao-multipla-jamovi.pdf">Tutorial</a> <span class="fmt">PDF</span></li>
+          <li class="soon"><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg>Base de dados <span class="fmt">em breve</span></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="slides" aria-labelledby="t-slides">
+    <p class="label">Slides</p>
+    <h2 id="t-slides">Apresentações das aulas</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Desenho da pesquisa quantitativa e coleta de dados</h3>
+        <p>Da pergunta de pesquisa às inferências: teoria, dados e método.</p>
+        <ul class="files">
+          <li><svg class="iv" aria-hidden="true"><use href="#iv-sm"/></svg><a href="slides/desenho-pesquisa-quantitativa.pptx" download>Slides</a> <span class="fmt">PPTX · 46 slides</span></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="como-usar" aria-labelledby="t-uso">
+    <p class="label">Como usar</p>
+    <h2 id="t-uso">Primeiros passos</h2>
+    <ol class="steps">
+      <li>Instale o <a href="https://www.jamovi.org/download.html">Jamovi</a> (Windows, macOS ou Linux). Também há uma versão que roda no navegador.</li>
+      <li>Baixe a apostila e a base de dados do tema.</li>
+      <li>No Jamovi, abra a base em <span class="mono">☰ › Abrir</span> e siga a apostila passo a passo.</li>
+      <li>Quando houver arquivo <span class="mono">.omv</span>, abra-o para comparar com a análise pronta.</li>
+    </ol>
+  </section>
+
+  <section id="produtos" aria-labelledby="t-produtos">
+    <p class="label">Produtos</p>
+    <h2 id="t-produtos">Painéis e outros produtos</h2>
+    <p class="soon">Em breve: painéis de dados e materiais em Python.</p>
+  </section>
+
+  <section id="citar" aria-labelledby="t-citar">
+    <p class="label">Como citar</p>
+    <h2 id="t-citar">Uso livre, com crédito</h2>
+    <p style="margin-bottom:16px">Os materiais estão sob a licença <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br">Creative Commons Atribuição 4.0 (CC BY 4.0)</a>. Pode usar, adaptar e redistribuir, desde que cite a autoria.</p>
+    <pre>CONFESSOR, Kliver Lamarthine Alves. Métodos Quantitativos de Pesquisa em Administração: materiais didáticos (apostilas, tutoriais e bases de dados para Jamovi). Campina Grande: PPGA/UFCG, 2026. Disponível em: https://profkliver.github.io/mqpa/.</pre>
+  </section>
+
+  <footer>
+    <span class="label">Prof. Kliver · PPGA/UFCG · <a href="https://github.com/profkliver/mqpa">repositório no GitHub</a></span>
+    <svg class="iv" aria-hidden="true"><use href="#iv-md"/></svg>
+  </footer>
+</div>
+</body>
+</html>
