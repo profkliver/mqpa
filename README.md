@@ -1,5 +1,7 @@
 # Métodos Quantitativos de Pesquisa em Administração (MQPA)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24206754.svg)](https://doi.org/10.5281/zenodo.24206754)
+
 Materiais abertos da disciplina do Mestrado em Administração (PPGA/UFCG): apostilas, tutoriais, slides e bases de dados para o [Jamovi](https://www.jamovi.org/).
 
 **Site:** https://profkliver.github.io/mqpa/

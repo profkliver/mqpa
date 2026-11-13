@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Se usar estes materiais, cite-os assim."
 type: dataset
+doi: 10.5281/zenodo.24206754
 title: "Métodos Quantitativos de Pesquisa em Administração: materiais didáticos (apostilas, tutoriais e bases de dados para Jamovi)"
 authors:
   - family-names: Confessor
