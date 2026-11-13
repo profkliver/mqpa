@@ -9,9 +9,9 @@ Materiais abertos da disciplina do Mestrado em Administração (PPGA/UFCG): apos
 | 01. Correlação | [PDF](materiais/01-correlacao/apostila-correlacao-jamovi.pdf) | [CSV](materiais/01-correlacao/base_ef_bets.csv) (simulada, n = 200) | [OMV](materiais/01-correlacao/correlacao.omv) |
 | 02. Teste t | [PDF](materiais/02-teste-t/apostila-teste-t-jamovi.pdf) | [CSV](materiais/02-teste-t/base_teste_t_bet_ed_fin.csv) (anonimizada, n = 222) | |
 | 03. Regressão múltipla | [PDF](materiais/03-regressao-multipla/tutorial-regressao-multipla-jamovi.pdf) | [CSV](materiais/03-regressao-multipla/base_regressao_af_bets.csv) (simulada, n = 200) | |
-| 04. Análise fatorial | [PDF](materiais/04-analise-fatorial/apostila-analise-fatorial-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300, mesma base nos temas 04 a 06) | |
-| 05. Confiabilidade e alfa de Cronbach | [PDF](materiais/05-confiabilidade/apostila-confiabilidade-alfa-cronbach-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300, mesma base nos temas 04 a 06) | |
-| 06. ANOVA | [PDF](materiais/06-anova/apostila-anova-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300, mesma base nos temas 04 a 06) | |
+| 04. Análise fatorial | [PDF](materiais/04-analise-fatorial/apostila-analise-fatorial-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300) | |
+| 05. Confiabilidade e alfa de Cronbach | [PDF](materiais/05-confiabilidade/apostila-confiabilidade-alfa-cronbach-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300) | |
+| 06. ANOVA | [PDF](materiais/06-anova/apostila-anova-jamovi.pdf) | [CSV](materiais/base-psicometria/base_psicometria_af_bets.csv) (simulada, n = 300) | |
 
 Slides: [Desenho da pesquisa quantitativa e coleta de dados](slides/desenho-pesquisa-quantitativa.pdf) (PDF)
 
